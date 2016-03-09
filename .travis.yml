@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "5.8"
+services:
+  - postgresql
+env:
+  global:
+    - NODE_ENV=travisci
+    - BUILD_DIR=`pwd`/pippo
+before_script:
+  - npm install -g grunt-cli
+  - npm install -g bower
+  - bower install
