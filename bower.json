@@ -1,7 +1,7 @@
 {
   "name": "mean-test",
   "description": "Test MEAN stack and travis integration... or better to say PEAN",
-  "main": "src/ui/index.js",
+  "main": "main.js",
   "moduleType": [
     "node"
   ],
@@ -15,7 +15,7 @@
     "Michele Pagot"
   ],
   "license": "MIT",
-  "homepage": "http://michelepagot.github.io/",
+  "homepage": "https://github.com/michelepagot/mean-test",
   "private": true,
   "ignore": [
     "**/.*",

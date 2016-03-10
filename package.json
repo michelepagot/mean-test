@@ -1,0 +1,29 @@
+{
+  "name": "mean-test",
+  "version": "0.0.1",
+  "description": "Test MEAN stack and travis integration... or better to say PEAN",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michelepagot/mean-test.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Angular",
+    "Postgresql"
+  ],
+  "author": "Michele Pagot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michelepagot/mean-test/issues"
+  },
+  "homepage": "https://github.com/michelepagot/mean-test",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0"
+  }
+}
