@@ -24,7 +24,7 @@ gulp.task('mocha_test', function() {
 
 gulp.task('default', function(){
   gulp.run('jshint', 'mocha_test');
-  gulp.watch(scriptFiles, function(){
+  /*gulp.watch(scriptFiles, function(){
     gulp.run('jshint', 'mocha_test');
-  });
+  });*/
 });
