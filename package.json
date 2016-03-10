@@ -24,6 +24,9 @@
   "homepage": "https://github.com/michelepagot/mean-test",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-mocha": "^2.2.0"
+    "gulp-jshint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "jshint": "^2.9.1",
+    "should": "^8.2.2"
   }
 }
