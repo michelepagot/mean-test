@@ -11,7 +11,8 @@ gulp.task('jshint', function() {
     .pipe(jshint())
     .pipe(jshint.reporter('default'));
 });
-gulp.task('default', function() {
+
+gulp.task('mocha_test', function() {
   return gulp.src(['test/test-*.js'], { read: false })
     .pipe(mocha({
       reporter: 'spec',
@@ -19,4 +20,11 @@ gulp.task('default', function() {
         should: require('should')
       }
     }));
+  });
+
+gulp.task('default', function(){
+  gulp.run('jshint', 'mocha_test');
+  gulp.watch(scriptFiles, function(){
+    gulp.run('jshint', 'mocha_test');
+  });
 });
